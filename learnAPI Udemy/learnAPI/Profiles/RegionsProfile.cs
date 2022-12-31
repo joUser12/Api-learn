@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using learnAPI.Models.Domain;
+using learnAPI.Models.DTO;
 
 namespace learnAPI.Profiles
 {
@@ -7,8 +9,9 @@ namespace learnAPI.Profiles
 
         public RegionsProfile()
         {
-            CreateMap<Models.Domain.Region, Models.DTO.Region>()
+            CreateMap<Models.Domain.Region, Models.DTO.RegionDTO>()
                 .ReverseMap();
+        
         }
     }
 }
