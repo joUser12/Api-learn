@@ -1,10 +1,7 @@
 ﻿namespace learnAPI.Models.DTO
 {
-    public class Region
+    public class UpdateRegion
     {
-
-        public Guid Id { get; set; }
-
         public string Code { get; set; }
 
         public string Name { get; set; }
